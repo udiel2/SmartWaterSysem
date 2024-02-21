@@ -20,3 +20,4 @@ const sectionOneObserver = new IntersectionObserver(function(
 sectionOneOptions);
 
 sectionOneObserver.observe(sectionOne);
+ScrollReveal().reveal("whats-trending",{delay:5000})

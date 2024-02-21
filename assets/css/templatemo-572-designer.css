@@ -85,7 +85,7 @@ button.main-button:hover {
 }
 
 .primary-button a:hover {
-  background-color: 6ba7df;
+  background-color: a8e2f9;
 }
 
 .white-button a {
@@ -123,10 +123,11 @@ section {
 }
 
 .section-heading h2 {
+  text-align: right;
   font-size: 22px;
   font-weight: 700;
   text-transform: capitalize;
-  color: 6ba7df;
+  color: a8e2f9;
   line-height: 32px;
   letter-spacing: -0.5px;
 }
@@ -158,7 +159,7 @@ section {
 }
 
 .loader {
-  background-color: 6ba7df;
+  background-color: a8e2f9;
   position: fixed;
   right: 0;
   left: 0;
@@ -189,7 +190,7 @@ section {
 }
 
 .navbar-nav {
-  background-color: 6ba7df;
+  background-color: a8e2f9;
   border-radius: 7.5px;
   padding: 10px 20px;
   margin-top: 10px;
@@ -208,7 +209,7 @@ header.nav-scrolled .main-navigation {
   padding: 10px 0px;
   position: fixed;
   z-index: 222;
-  background-color: #6ba7df;
+  background-color: #a8e2f9;
   -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
@@ -366,6 +367,7 @@ button:focus:not(:focus-visible) {
 }
 
 .search-form #search-form {
+  text-align: center;
   padding: 30px;
   background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
@@ -433,7 +435,7 @@ section.explore-work .right-content ul li:last-child {
 
 section.explore-work .right-content ul li h4 {
   font-size: 20px;
-  color: 6ba7df;
+  color: a8e2f9;
   font-weight: 700;
   margin-bottom: 30px;
   padding-bottom: 10px;
@@ -472,7 +474,7 @@ section.explore-work .right-content ul li ul.info li h6 {
 section.explore-work .right-content ul li ul.info li h6 a {
   font-size: 17px;
   font-weight: 700;
-  color: 6ba7df;
+  color: a8e2f9;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
@@ -734,7 +736,7 @@ footer h4 {
   font-size: 17px;
   font-weight: 700;
   text-transform: capitalize;
-  color: 6ba7df;
+  color: a8e2f9;
   margin-bottom: 30px;
   margin-top: 45px;
 }
@@ -926,7 +928,7 @@ footer .sub-footer a.scroll-to-top:hover {
   margin-top: 15px;
   font-size: 20px;
   font-weight: 700;
-  color: 6ba7df;
+  color: a8e2f9;
 }
 
 section.interior-design .left-image {
@@ -960,7 +962,7 @@ section.interior-design .right-content h4 {
   margin-bottom: 0px;
   font-size: 20px;
   font-weight: 700;
-  color: 6ba7df;
+  color: a8e2f9;
 }
 
 section.interior-design .right-content .accordion-button {
@@ -974,11 +976,11 @@ section.interior-design .right-content .accordion-button {
   text-align: left;
   font-size: 17px;
   background-color: transparent;
-  color: 6ba7df;
+  color: a8e2f9;
 }
 
 section.interior-design .right-content .accordion-button:not(.collapsed) {
-  color: 6ba7df;
+  color: a8e2f9;
   border-bottom: none;
   background-color: transparent;
 }
@@ -995,7 +997,7 @@ section.interior-design .right-content .accordion-button:not(.collapsed)::after 
 }
 
 section.interior-design .right-content .accordion-button::after {
-  color: 6ba7df;
+  color: a8e2f9;
 }
 
 section.interior-design .right-content .accordion-collapse {
@@ -1061,7 +1063,7 @@ section.interior-design .right-content .accordion-body {
 .what-they-say .testimonial-item h4 {
   font-size: 18px;
   font-weight: 700;
-  color: 6ba7df;
+  color: a8e2f9;
 }
 
 .what-they-say .testimonial-item span {
@@ -1126,7 +1128,7 @@ section.interior-design .right-content .accordion-body {
 }
 
 .call-to-action {
-  background-color: 6ba7df;
+  background-color: a8e2f9;
   margin-top: 120px;
   padding: 45px 0px;
 }
@@ -1161,7 +1163,7 @@ section.interior-design .right-content .accordion-body {
 section.explore-item h2 {
   font-size: 34px;
   font-weight: 700;
-  color: 6ba7df;
+  color: a8e2f9;
   text-align: center;
   text-transform: uppercase;
 }
@@ -1202,7 +1204,7 @@ section.explore-item .project-info .info-item {
 
 section.explore-item .project-info .info-item h6 {
   font-size: 17px;
-  color: 6ba7df;
+  color: a8e2f9;
 }
 
 section.explore-item .project-info .info-item span {
@@ -1230,7 +1232,7 @@ section.explore-item .down-content h4 {
   margin-bottom: 20px;
   font-size: 34px;
   font-weight: 700;
-  color: 6ba7df;
+  color: a8e2f9;
   text-align: left;
   text-transform: uppercase;
 }
@@ -1288,7 +1290,7 @@ section.explore-item .projects-pagination .right-content h6 {
   margin-top: 8px;
   font-size: 18px;
   font-weight: 700;
-  color: 6ba7df;
+  color: a8e2f9;
   text-transform: capitalize;
   -webkit-transition: all .5s;
   transition: all .5s;
@@ -1325,7 +1327,7 @@ section.explore-item .projects-pagination .left-content h6 {
   margin-top: 8px;
   font-size: 18px;
   font-weight: 700;
-  color: 6ba7df;
+  color: a8e2f9;
   text-transform: capitalize;
   -webkit-transition: all .5s;
   transition: all .5s;
