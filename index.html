@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<script src="https://unpkg.com/scrollreveal"></script>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -20,10 +21,11 @@
     <!-- Hero section -->
     <section id="hero" class="text-white tm-font-big tm-parallax">
       <!-- Navigation -->
+      
       <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
         <div class="container">   
           <div class="tm-next">
-              <a href="#hero" class="navbar-brand">The Town</a>
+              <a href="#hero" class="navbar-brand">Smart Water Systems</a>
           </div>             
             
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,15 +46,18 @@
           </div>        
         </div>
       </nav>
-      
       <div class="text-center tm-hero-text-container">
+        <video autoplay muted loop id="bg-video">
+          <source src="video/presentation.mp4" type="video/mp4">
+      </video> 
         <div class="tm-hero-text-container-inner">
-            <h2 class="tm-hero-title">The Town</h2>
+            <h2 class="tm-hero-title">Smart Water Systems</h2>
             <p class="tm-hero-subtitle">
-              Parallax Bootstrap Theme
-              <br />by TemplateMo
+              מערכות מים מתקדמות
+              <br />SWS
             </p>
-        </div>        
+        </div>   
+           
       </div>
 
       <div class="tm-next tm-intro-next">
@@ -60,6 +65,7 @@
           <i class="fas fa-3x fa-caret-down tm-down-arrow"></i>
         </a>
       </div>      
+      
     </section>
 
     <section id="introduction" class="tm-section-pad-top">
@@ -256,11 +262,40 @@
           </p>
         </footer>
     </section>
+    <div id="loader-wrapper">            
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>  
     <script src="js/jquery-1.9.1.min.js"></script>     
     <script src="slick/slick.min.js"></script>
     <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.singlePageNav.min.js"></script>     
     <script src="js/bootstrap.min.js"></script> 
+
+    <script>
+      ScrollReveal({
+          reset : true,
+          distance:'60px',
+          duration : 2500,
+          delay: 400 
+      });
+      ScrollReveal().reveal('.contact-us .container',{delay : 500});
+      ScrollReveal().reveal('.tm-hero-title',{delay : 500});
+      ScrollReveal().reveal('.explore-work .col-lg-6',{delay : 500});
+      ScrollReveal().reveal('.tm-hero-subtitle',{delay : 700});
+  
+  
+    </script>
+
+
+
+
+
+
+
+
+
     <script>
 
       function getOffSet(){
