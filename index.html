@@ -75,25 +75,75 @@
       </div>      
       
     </section>
+    <style>
+      @media screen and (min-width: 992px) {
+          .card-item:nth-child(even) .black-label {
+              margin-right: -134px;
+              margin-left: -14px;
+              padding-right: 0px;
+              padding-left: 14px;
+          }
 
+          .card-item:nth-child(even) .card.is--double {
+              -webkit-box-orient: horizontal;
+              -webkit-box-direction: reverse;
+              -webkit-flex-direction: row-reverse;
+              -ms-flex-direction: row-reverse;
+              flex-direction: row-reverse;
+          }
+
+          .card-item:nth-child(even) .card-text {
+              -webkit-box-align: stretch;
+              -webkit-align-items: stretch;
+              -ms-flex-align: stretch;
+              align-items: stretch;
+          }
+      }
+  </style>
     <section id="introduction" class="tm-section-pad-top wow fadeInUp"data-wow-delay="3.5s">
       <div class="container">
         
-        <h2 class="tm-text-primary mb-4 tm-section-title" style="font-family:'times New Roman', Arial, verdana, 'sans serif';">אודות</h2>
+        <!-- <h2 class="tm-text-primary mb-4 tm-section-title" style="font-family:'times New Roman', Arial, verdana, 'sans serif';">אודות</h2> -->
+        <div class="row">
+        
+
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="3.5s">
+            <div class="tm-intro-text-container">
+                <h2 class="tm-text-primary mb-4 tm-section-title">עלינו</h2>
+                <p class="mb-4 tm-intro-text">
+                  ברוכים הבאים למ.מ.ח,
+                   משרד תכנון בריכות שחייה מהמובילים בישראל. אנו מציעים שירותי תכנון מקצועיים ומקיפים לכל סוגי הבריכות,
+                    החל מבריכות פרטיות ועד בריכות ציבוריות.
+                   צוות המומחים שלנו בעל ניסיון רב שנים בתחום, ומלווה אתכם לאורך כל התהליך, החל משלב התכנון הראשוני ועד להוצאת היתרי בנייה וביצוע הפרויקט. </p>
+                <p class="mb-5 tm-intro-text" style="font-family:'times New Roman', Arial, verdana, 'sans serif';">
+                    </p>
+                <div class="tm-next">
+                  <a href="#work" class="tm-intro-text tm-btn-primary">Read More</a>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <!-- <img src="img/the-town-01.jpg" alt="Image" class="img-fluid tm-intro-img" /> -->
+            <iframe src="https://player.vimeo.com/video/820148804?autoplay=1&amp;portrait=0&amp;title=0&amp;byline=0" width="740" height="350" allowfullscreen=""class="img-fluid tm-intro-img"></iframe>
+  
+  
+          </div>
+         
+        </div> 
+
+
         <div class="w-layout-grid card-grid">
           <div class="card-shadow w-inline-block">
             <div class="card">
               <div class="card-image-wrap">
-                <img src="https://uploads-ssl.webflow.com/60b280b08e7b7a3f70e3e16d/60b288785c914fa1a01e3a93_project-consulting.jpg" loading="lazy" alt="Project consulting services" class="card-image" style="will-change: transform;transform: translate3d(0px, 0px, 0px) scale3d(1.11588, 1.11588, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;">
+                <img src="img/DRAWINGS.jpg" loading="lazy" alt="Project consulting services" class="card-image" style="will-change: transform;transform: translate3d(0px, 0px, 0px) scale3d(1.11588, 1.11588, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;">
   
               </div>
               <div class="card-details">
-                <div class="number-icon"><div class="number">3</div></div>
-                <h4 class="text-center tm-text-primary mb-4">Curabitur at elit eu risus</h4>
+                <div class="number-icon"><i class="fas fa-4x fa-pencil tm-icon2"></i></div>
+                <h4 class="text-center tm-text-primary mb-4">תכנון בריכות שחייה פרטיות וציבוריות</h4>
               <p>
-                Sed ultrices sit amet mi eu malesuada. Cras ultricies gravida
-                nisi, ac pellentesque nunc tincidunt quis. Aenean at ornare lacus.
-                Duis imperdiet lacus justo.
+                פרטים
               </p>
               </div>
 
@@ -105,16 +155,35 @@
           <div class="card-shadow w-inline-block">
             <div class="card">
               <div class="card-image-wrap">
-                <img src="https://uploads-ssl.webflow.com/60b280b08e7b7a3f70e3e16d/60b288785c914fa1a01e3a93_project-consulting.jpg" loading="lazy" alt="Project consulting services" class="card-image" style="will-change: transform;transform: translate3d(0px, 0px, 0px) scale3d(1.11588, 1.11588, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;">
+                <img src="img/POOL GIRL.jpg" loading="lazy" alt="Project consulting services" class="card-image" style="will-change: transform;transform: translate3d(0px, 0px, 0px) scale3d(1.11588, 1.11588, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;">
   
               </div>
               <div class="card-details">
-                <div class="number-icon"><div class="number">3</div></div>
-                <h4 class="text-center tm-text-primary mb-4">Curabitur at elit eu risus</h4>
+                <div class="number-icon"><i class="fas fa-4x fa-magic tm-icon2"></i></div>
+                <h4 class="text-center tm-text-primary mb-4">שדרוג בריכות שחייה קיימות</h4>
               <p>
-                Sed ultrices sit amet mi eu malesuada. Cras ultricies gravida
-                nisi, ac pellentesque nunc tincidunt quis. Aenean at ornare lacus.
-                Duis imperdiet lacus justo.
+                פרטים
+              </p>
+              </div>
+
+
+
+            </div>
+          </div>
+          <div class="card-shadow w-inline-block">
+            <div class="card">
+              <div class="card-image-wrap">
+                <img src="img/collaborate 02.jpg" loading="lazy" alt="Project consulting services" class="card-image" style="will-change: transform;transform: translate3d(0px, 0px, 0px) scale3d(1.11588, 1.11588, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;">
+  
+              </div>
+              <div class="card-details">
+                <div class="number-icon">
+                  <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                  <i class="fas fa-4x fa-cogs text-center tm-icon2"></i>
+                </div>
+                <h4 class="text-center tm-text-primary mb-4">מרכז חישובים והנדסה</h4>
+              <p>
+                פרטים
               </p>
               </div>
 
@@ -127,16 +196,52 @@
           <div class="card-shadow w-inline-block">
             <div class="card">
               <div class="card-image-wrap">
-                <img src="https://uploads-ssl.webflow.com/60b280b08e7b7a3f70e3e16d/60b288785c914fa1a01e3a93_project-consulting.jpg" loading="lazy" alt="Project consulting services" class="card-image" style="will-change: transform;transform: translate3d(0px, 0px, 0px) scale3d(1.11588, 1.11588, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;">
+                <img src="img/office 02.jpg" loading="lazy" alt="Project consulting services" class="card-image" style="will-change: transform;transform: translate3d(0px, 0px, 0px) scale3d(1.11588, 1.11588, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;">
   
               </div>
               <div class="card-details">
-                <div class="number-icon"><div class="number">3</div></div>
-                <h4 class="text-center tm-text-primary mb-4">Curabitur at elit eu risus</h4>
+                <div class="number-icon"><i class="fas fa-4x fa-university tm-icon2"></i></div>
+                <h4 class="text-center tm-text-primary mb-4">עבודה מול גורמים רגולטוריים</h4>
               <p>
-                Sed ultrices sit amet mi eu malesuada. Cras ultricies gravida
-                nisi, ac pellentesque nunc tincidunt quis. Aenean at ornare lacus.
-                Duis imperdiet lacus justo.
+                פרטים
+              </p>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          <div class="card-shadow w-inline-block">
+            <div class="card">
+              <div class="card-image-wrap">
+                <img src="img/collaborae.jpg" loading="lazy" alt="Project consulting services" class="card-image" style="will-change: transform;transform: translate3d(0px, 0px, 0px) scale3d(1.11588, 1.11588, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;">
+  
+              </div>
+              <div class="card-details">
+                <div class="number-icon"><i class="fas fa-4x fa-magic tm-icon2"></i></div>
+                <h4 class="text-center tm-text-primary mb-4">ביצוע תסקירים עבור בריכות קיימות</h4>
+              <p>
+                פרטים
+              </p>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          <div class="card-shadow w-inline-block">
+            <div class="card">
+              <div class="card-image-wrap">
+                <img src="img/CONC POOL.jpg" loading="lazy" alt="Project consulting services" class="card-image" style="will-change: transform;transform: translate3d(0px, 0px, 0px) scale3d(1.11588, 1.11588, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;">
+  
+              </div>
+              <div class="card-details">
+                <div class="number-icon"><i class="fas fa-4x fa-magic tm-icon2"></i></div>
+                <h4 class="text-center tm-text-primary mb-4">ניהול פרויקטים בתחום הבריכות</h4>
+              <p>
+                פרטים
               </p>
               </div>
 
@@ -145,37 +250,9 @@
             </div>
           </div>
       </div>
-      <div class="row">
-        
 
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="3.5s">
-          <div class="tm-intro-text-container">
-              <h2 class="tm-text-primary mb-4 tm-section-title">אודות</h2>
-              <p class="mb-4 tm-intro-text"style="font-family:'times New Roman', Arial, verdana, 'sans serif';">
-                משרדנו מציע חבילת תכנון איכותית ובלתי מתפשרת, כוללת את מירב שנות הניסיון שלנו מתחום המים והזרימה, 
-                ואת הניסיון שצברנו בסביבה פיתוחית עם פתרונות יצירתיים וישימים. יכולות תכנון מתקדמות בתוכנת הרויט והאוטוקד
-            </p>
-              <p class="mb-5 tm-intro-text" style="font-family:'times New Roman', Arial, verdana, 'sans serif';">
-                                          ייעוץ צמוד לבריכת השחיה.
-                        העברת הבריכה את בדיקות משרד הבריאות הקפדניות.
-                        סדר בכל המילים הגדולות וירידה לפרטים בשבילכם.
-                        הגשת כל הממצאים כדי שהבריכה שלכם תשוב לפעילות מלאה במהרה.
-                        תכנון להגשה עבור הבריכה שלכם.
-                        תוכנית כללית, כתב כמויות, פרשה טכנית, תכנית P&ID ומפרט טכני
-                  </p>
-              <div class="tm-next">
-                <a href="#work" class="tm-intro-text tm-btn-primary">Read More</a>
-              </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <!-- <img src="img/the-town-01.jpg" alt="Image" class="img-fluid tm-intro-img" /> -->
-          <iframe src="https://player.vimeo.com/video/820148804?autoplay=1&amp;portrait=0&amp;title=0&amp;byline=0" width="740" height="350" allowfullscreen=""class="img-fluid tm-intro-img"></iframe>
+      
 
-
-        </div>
-       
-      </div>
       <div class="row tm-section-pad-top">
         <div class="col-lg-4">
           <i class="fas fa-4x fa-bus text-center tm-icon"></i>
@@ -206,6 +283,115 @@
         </p>
       </div>
     </div>
+    
+
+
+    <div>
+     
+    
+    </div>
+
+    <div role="listitem" class="card-item w-dyn-item">
+      
+      <div class="card-shadow" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        <div class="card is--double">
+          <div class="column is--image">
+          <img src="https://uploads-ssl.webflow.com/60b2908c9d53e4aed699dc9e/60b39fcf5c914f84b6221d8e_featured-project-01.jpg" loading="lazy" alt="Πολυτελής παραθαλάσσια πολυκατοικία στην Χαλκίδα Ελλάδα." sizes="(max-width: 479px) 92vw, (max-width: 767px) 88vw, (max-width: 991px) 600px, 48vw" srcset="https://uploads-ssl.webflow.com/60b2908c9d53e4aed699dc9e/60b39fcf5c914f84b6221d8e_featured-project-01-p-500.jpeg 500w, https://uploads-ssl.webflow.com/60b2908c9d53e4aed699dc9e/60b39fcf5c914f84b6221d8e_featured-project-01.jpg 750w" class="card-image" style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1.09805, 1.09805, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div><div class="column is--padding"><div class="card-text is--featured">
+          <div class="black-label">
+          <h3 class="label-text">Sea-View Apartments</h3>
+          </div>
+          <div class="details-wrap">
+          <div class="label is--dark">Location
+  
+          </div>
+          <p>Chalkida, Greece</p>
+          </div>
+          <div class="details-wrap">
+          <div class="label is--dark">Status</div>
+          <p>Completed in 2008</p>
+          </div>
+          <div class="details-wrap is--no-padding">
+          <div class="label is--dark">Description</div>
+          <p>This apartment building is situated in a very privileged sea-view plot in the center of Chalkida. 
+            Being both next to the sea and to a neo-classical house has to adopt a double character.
+             The combination of luxury and simplicity connects to the sea and the surroundings.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div role="listitem" class="card-item w-dyn-item">
+      
+      <div class="card-shadow" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        <div class="card is--double">
+          <div class="column is--image">
+            <img src="https://uploads-ssl.webflow.com/60b2908c9d53e4aed699dc9e/632ae1ec37bf082eb113e248_2_2-3%20-%20kedriki%20eikona.jpg" loading="lazy" alt="Bioclimatic house" sizes="(max-width: 479px) 92vw, (max-width: 767px) 88vw, (max-width: 991px) 600px, 48vw" srcset="https://uploads-ssl.webflow.com/60b2908c9d53e4aed699dc9e/632ae1ec37bf082eb113e248_2_2-3%20-%20kedriki%20eikona-p-500.jpg 500w, https://uploads-ssl.webflow.com/60b2908c9d53e4aed699dc9e/632ae1ec37bf082eb113e248_2_2-3%20-%20kedriki%20eikona.jpg 750w" class="card-image" style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1.14864, 1.14864, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+          </div>
+          <div class="column is--padding">
+            <div class="card-text is--featured">
+              <div class="black-label">
+                <h3 class="label-text">bioclimatic-building</h3>
+              </div><div class="details-wrap">
+                <div class="label is--dark">Location</div>
+                <p>Drafi, Greece</p>
+              </div>
+              <div class="details-wrap">
+                <div class="label is--dark">
+                  Status
+                </div>
+                <p>Under construction</p>
+              </div>
+              <div class="details-wrap is--no-padding">
+                <div class="label is--dark">Description</div>
+                <p>This house is located in a rocky ridge with abrupt slopes.The need to create the minimum imprint in the surroundings along with creating a green ,energy-efficient building, led to the decision to drill the slope, instead of arranging a set of spaces at different levels.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div role="listitem" class="card-item w-dyn-item">
+      
+      <div class="card-shadow" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        <div class="card is--double">
+          <div class="column is--image">
+          <img src="https://uploads-ssl.webflow.com/60b2908c9d53e4aed699dc9e/60b39fcf5c914f84b6221d8e_featured-project-01.jpg" loading="lazy" alt="Πολυτελής παραθαλάσσια πολυκατοικία στην Χαλκίδα Ελλάδα." sizes="(max-width: 479px) 92vw, (max-width: 767px) 88vw, (max-width: 991px) 600px, 48vw" srcset="https://uploads-ssl.webflow.com/60b2908c9d53e4aed699dc9e/60b39fcf5c914f84b6221d8e_featured-project-01-p-500.jpeg 500w, https://uploads-ssl.webflow.com/60b2908c9d53e4aed699dc9e/60b39fcf5c914f84b6221d8e_featured-project-01.jpg 750w" class="card-image" style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1.09805, 1.09805, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div><div class="column is--padding"><div class="card-text is--featured">
+          <div class="black-label">
+          <h3 class="label-text">Sea-View Apartments</h3>
+          </div>
+          <div class="details-wrap">
+          <div class="label is--dark">Location
+  
+          </div>
+          <p>Chalkida, Greece</p>
+          </div>
+          <div class="details-wrap">
+          <div class="label is--dark">Status</div>
+          <p>Completed in 2008</p>
+          </div>
+          <div class="details-wrap is--no-padding">
+          <div class="label is--dark">Description</div>
+          <p>This apartment building is situated in a very privileged sea-view plot in the center of Chalkida. 
+            Being both next to the sea and to a neo-classical house has to adopt a double character.
+             The combination of luxury and simplicity connects to the sea and the surroundings.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
     </section>
     <section id="work" class="tm-section-pad-top">
       <div class="container tm-container-gallery" data-wow-delay="4s">

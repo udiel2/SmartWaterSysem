@@ -39,10 +39,12 @@ a:focus {
 
 .tm-section-pad-top {
   padding-top: 135px;
+  padding-bottom: 135px;
 }
 
 .tm-text-primary {
   color: #3496d8;
+  font-family: Impact , sans-serif; 
 }
 
 .tm-font-big {
@@ -65,6 +67,8 @@ a:focus {
 /* Navbar */
 
 .tm-navbar {
+  height: 72px;
+
   position: fixed;
   width: 100%;
   z-index: 1000;
@@ -572,8 +576,14 @@ p {
 }
 
 @media (min-width: 1200px) {
-  .container {
+  /* .container {
     max-width: 1275px;
+  } */
+  .container {
+    width: 100%;
+    max-width: 1168px;
+    padding-top: 110px;
+    padding-bottom: 110px;
   }
 
   .tm-container-gallery {
@@ -601,6 +611,7 @@ p {
     margin-right: auto;
   }
   .img-fluid{
+    margin-top: 50px;
     position: relative;
   }
 
@@ -708,6 +719,92 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 /* JavaScript Turned Off */
 .no-js #loader-wrapper { display: none; }
 /*============ Preloader ends ==================================*/
+
+
+
+
+
+
+.column {
+  width: 50%;
+  min-height: 565px;
+  position: relative;
+}
+.column.is--image {
+  background-color: #2c2c2c;
+  overflow: hidden;
+}
+
+.column.is--padding {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 75px;
+}
+
+.column.is--image {
+  background-color: #2c2c2c;
+  overflow: hidden;
+}
+
+.column.is--image.rounded {
+  min-height: auto;
+  border-radius: 8px;
+}
+
+.column.is--associates {
+  min-height: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.column.is--about {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 75px;
+  display: flex;
+}
+
+
+.card.is--double {
+  margin-top: -33px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.black-label {
+  color: #fff;
+  background-color: #000;
+  margin-bottom: 40px;
+  margin-left: -134px;
+  margin-right: -75px;
+  padding: 9px 14px 9px 134px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .w-layout-grid {
   grid-row-gap: 16px;
   grid-column-gap: 16px;
@@ -723,7 +820,10 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 120px;
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* כאן אנחנו מגדירים שיהיו עד 3 עמודות עם רוחב מינימלי של 300 פיקסלים */
+  gap: 20px; /* מרווח בין כרטיסים */
 }
 .card-shadow {
   color: #000;
@@ -735,6 +835,13 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
   box-shadow: 25px 25px 76px 8px rgba(0, 0, 0, .13);
 }
 .card{
+
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 25px 25px 76px 8px rgba(0, 0, 0, .13);
+}
+.card2{
+  flex-direction: row;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 25px 25px 76px 8px rgba(0, 0, 0, .13);
@@ -752,7 +859,14 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
   border-radius: 8px;
   object-fit: cover;
 }
-img {
+.logo {
+  scale: 0.6;
+  max-width: 100%;
+  border-radius: 8px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.img {
   max-width: 100%;
   border-radius: 8px;
   vertical-align: middle;
@@ -796,6 +910,12 @@ img {
 .card-shadow {
   margin-bottom: 20px;
 } */
+.tm-icon2{
+  scale: 0.5;
+  display: block;
+  margin-bottom: 0px;
+  color: #3496d8;
+}
 
 
 
