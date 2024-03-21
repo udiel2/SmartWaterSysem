@@ -67,8 +67,7 @@ a:focus {
 /* Navbar */
 
 .tm-navbar {
-  height: 72px;
-
+  height: 100px;
   position: fixed;
   width: 100%;
   z-index: 1000;
@@ -83,7 +82,7 @@ a:focus {
 
 .navbar-brand {
   color: #8f8f8f;
-  font-size: 1.4rem;
+
   font-weight: bold;
 }
 
