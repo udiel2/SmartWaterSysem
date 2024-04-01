@@ -821,8 +821,14 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
   margin-right: -75px;
   padding: 9px 14px 9px 134px;
 }
+.listitem{
+  height: fit-content;
+}
 
 @media (max-width: 990px) {
+  .listitem{
+    height: 500px;
+  }
   .logo{
     overflow: hidden;
     position: fixed;
@@ -838,7 +844,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
     font-family: "Alef Hebrew", sans-serif;
     width: 100%;
     text-align: right;
-    min-height: 565px;
+    min-height: 350px;
     position: relative;
   }
   .column.is--image {
