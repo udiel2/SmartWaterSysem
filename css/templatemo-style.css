@@ -70,7 +70,7 @@ a:focus {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background-color: #e9ecef;
+  background-color: #ffffff;
   transition: all 0.3s ease;
 }
 
@@ -120,7 +120,7 @@ a:focus {
 }
 
 .navbar-toggler-icon {
-  color: white;
+  color: #8f8f8f;
   padding-top: 6px;
 }
 
@@ -624,6 +624,17 @@ p {
     margin-left: 20px;
     margin-top: 0;
   }
+  .container {
+    width: 100%;
+    flex-direction: row;
+    /* padding-top: 110px;
+    padding-bottom: 110px; */
+  }
+  .logo{
+    overflow: hidden;
+    position: fixed;
+    visibility: hidden;
+  }
 
   .navbar-nav {
     max-width: 200px;
@@ -812,6 +823,11 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 }
 
 @media (max-width: 990px) {
+  .logo{
+    overflow: hidden;
+    position: fixed;
+    visibility: hidden;
+  }
   .card.is--double {
     margin-top: -33px;
     width: 100%;
