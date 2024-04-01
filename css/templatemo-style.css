@@ -847,10 +847,17 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
     display:grid;
   }
   .black-label {
-    margin-top: -100px;
+    margin-top: -70px;
     margin-left: 0px;
     padding-left: 50px;
 }
+.column.is--padding {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+.label-text{
+  padding-right: 70px;}
 }
 
 
