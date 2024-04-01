@@ -67,11 +67,10 @@ a:focus {
 /* Navbar */
 
 .tm-navbar {
-  height: 100px;
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background-color: #ffffff;
+  background-color: #e9ecef;
   transition: all 0.3s ease;
 }
 
@@ -82,7 +81,7 @@ a:focus {
 
 .navbar-brand {
   color: #8f8f8f;
-
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
@@ -218,12 +217,12 @@ a:focus {
 
 .tm-hero-title {
   font-family: Impact , sans-serif;                                           
-  font-size: 4rem;
+  font-size: 3.0rem;
   text-shadow: 2px 2px 2px #333;
 }
 .tm-hero-subtitle {
   /* font-family: 'Alloystan', sans-serif;    */
-  font-size: 3rem;
+  /* font-size: 3rem; */
   text-shadow: 2px 2px 2px #333;
 }
 
@@ -581,8 +580,8 @@ p {
   .container {
     width: 100%;
     max-width: 1168px;
-    padding-top: 110px;
-    padding-bottom: 110px;
+    /* padding-top: 110px;
+    padding-bottom: 110px; */
   }
 
   .tm-container-gallery {
